@@ -1,0 +1,18 @@
+body {
+	font-family: Calibri;
+}
+
+#contents {
+    position: absolute;
+    left: 30%;
+    top: 10%;
+	
+}
+
+h1 {
+	font-style: italic;
+	font-size: 60px;
+	letter-spacing: 1.6;
+	text-shadow: 2px 2px 2px silver;
+	line-height: 0px
+}

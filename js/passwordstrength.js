@@ -1,0 +1,1 @@
+//PASSWORD STRENGTH			$('#pwdstr').keypress(function(){				   var len =   $(this).val().length;				   var msg				   if(len > 10) {					 msg = "<font color='green'>Strong</font>" }				   else if (len > 5){					 msg = "<font color='brown'>Good</font>" }				   else {					  msg = "<font color='red'>Weak</font>" }				$("#pass_strength_meter").html(msg);			});
